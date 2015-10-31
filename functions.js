@@ -3,7 +3,14 @@
  * @param {number} n
  * @return {string} the number as a string
  */
+var num = 15;
+ function convert (number) {
+ 	var n = number.toString();
+   return n;
 
+ }
+
+console.log(convert(num));
 
 /**
  * Adds one to a given number.
@@ -11,13 +18,21 @@
  * @return {number}
  */
 
+function addOne (number) {
+  var added = number +1;
+  return added;
+}
+
 
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
-
+function subtractOne (number) {
+  var added = number -1;
+  return added;
+}
 
 /**
  * Adds two numbers.
@@ -25,6 +40,11 @@
  * @param {number} y
  * @return {number} the sum
  */
+
+function addition (x, y) {
+  var sum = x + y;
+  return sum;
+}
 
 
 /**
@@ -34,6 +54,11 @@
  * @return {number} the difference
  */
 
+function subtraction (x, y) {
+  var difference = x - y;
+  return difference;
+}
+
 
 /**
  * Multiplies two numbers.
@@ -42,6 +67,10 @@
  * @return {number} the product
  */
 
+function multiplication (x, y) {
+  var product = x * y;
+  return product;
+}
 
 /**
  * Divides the first number by the second.
@@ -50,6 +79,10 @@
  * @return {number} the quotient
  */
 
+function division (x, y) {
+  var total = x / y;
+  return total;
+}
 
 /**
  * Multiplies a number by itself.
